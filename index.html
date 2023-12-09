@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>YouTube.com Clone</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="Youtube.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/video.css">
+  <link rel="stylesheet" href="styles/sidebar.css">
+</head>
+
+<body>
+
+  <div class="header">
+
+    <div class="start-section">
+      <img class="hamburger-menu" src="Icons/hamburger-menu.svg">
+      <img class="youtube-logo" src="Icons/youtube-logo.svg">
+    </div>
+    <div class="middle-section">
+      <input class="search-bar" type="text" placeholder="Search">
+      <button class="search-button">
+        <img class="search-icon" src="Icons/search.svg">
+        <div class="tooltip">Search</div>
+      </button>
+      <button class="voice-search-button">
+        <img class="voice-search-icon" src="Icons/voice-search-icon.svg">
+        <div class="tooltip">Voice Search</div>
+      </button>
+    </div>
+    <div class="end-section">
+      <div class="upload-icon-container">
+        <img class="youtube-upload-icon" src="Icons/upload.svg">
+        <div class="tooltip">Upload</div>
+      </div>
+
+
+      <div class="apps-icon-container">
+        <img class="youtube-apps-icon" src="Icons/youtube-apps.svg">
+        <div class="tooltip">Apps</div>
+      </div>
+
+
+
+      <div class="Youtube-notification-icon-container">
+        <img class="youtube-notification-icon" src="Icons/notifications.svg">
+        <div class="three">3</div>
+        <div class="tooltip">Notification</div>
+      </div>
+      <img class="youtube-profile-icon" src="Profile-pictures/Fahad_ali.png">
+
+    </div>
+  </div>
+
+
+  <div class="sidebar">
+    <div class="button1">
+      <img src="Icons/Sidebar-Icons/home.svg" class="home-button">
+      <div>Home</div>
+    </div>
+    <div class="button1">
+      <img src="Icons/Sidebar-Icons/explore.svg" class="explore-button">
+      <div>Explore</div>
+    </div>
+    <div class="button1">
+      <img src="Icons/Sidebar-Icons/subscriptions.svg" class="subscriptions-button">
+      <div>Subscriptions</div>
+    </div>
+    <div class="button1">
+      <img src="Icons/Sidebar-Icons/originals.svg" class="originals-button">
+      <div>Originals</div>
+    </div>
+    <div class="button1">
+      <img src="Icons/Sidebar-Icons/youtube-music.svg" class="youtube-music-button">
+      <div>YouTube-Music</div>
+    </div>
+    <div class="button1">
+      <img src="Icons/Sidebar-Icons/library.svg" class="library-button">
+      <div>Labriary</div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+  <div class="display-grid">
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://www.youtube.com/watch?v=G3e-cpL7ofc&t=17012s"><img class="thumbnail" src="Pictures/T1.jpg"></a>
+        <div class="time">6:31:24</div>
+      </div>
+      <div>
+
+        <div class="channel-picture">
+          <a href="https://www.youtube.com/@SuperSimpleDev"><img class="profile-picture" src="Profile-pictures/P1.jpeg"></a>
+          <div class="channel-tooltip">
+            <img class="channel-tooltip-picture" src="Profile-pictures/P1.jpeg">
+            <div>
+              <div class="channel-tooltip-name">SuperSimpleDev</div>
+              <div class="channel-tooltip-stats">335K Subscribers</div>
+            </div>
+          </div>
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            HTML and CSS full course - beginner to pro
+          </p>
+          <p class="video-author">
+            SuperSimpleDev
+          </p>
+          <p class="video-stats">
+            7.5M views &#183; 1 year ago
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://www.youtube.com/watch?v=BOhnFkgt5Xs"> <img class="thumbnail" src="Pictures/T2.jpg"></a>
+        <div class="time">15:31</div>
+      </div>
+      <div>
+        <div class="channel-picture">
+          <a href="https://www.youtube.com/@ImanGadzhi"><img class="profile-picture" src="Profile-pictures/P2.jpeg"></a>
+          <div class="channel-tooltip">
+            <img class="channel-tooltip-picture" src="Profile-pictures/P2.jpeg">
+            <div>
+              <div class="channel-tooltip-name">Iman Gadzhi</div>
+              <div class="channel-tooltip-stats">3.84M Subscribers</div>
+            </div>
+          </div>
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            You're 18 you need these skills.
+          <p>.</p>
+          </p>
+          <p class="video-author">
+            Iman Gadzhi
+          </p>
+          <p class="video-stats">
+            1.7M views &#183; 1 year ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://www.youtube.com/watch?v=shgKU-zjOmw"><img class="thumbnail" src="Pictures/T3.jpg"></a>
+        <div class="time">21:37</div>
+      </div>
+      <div>
+        <div class="channel-picture">
+          <a href="https://www.youtube.com/@UnixGuy"><img class="profile-picture" src="Profile-pictures/P3.jpeg"></a>
+          <div class="channel-tooltip">
+            <img class="channel-tooltip-picture" src="Profile-pictures/P3.jpeg">
+            <div>
+              <div class="channel-tooltip-name">Unix guy ! Cyber security expert</div>
+              <div class="channel-tooltip-stats">103K Subscribers</div>
+            </div>
+          </div>
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            FASTEST way to become cyber security engineer and ACTUALLY get a job
+          </p>
+          <p class="video-author">
+            Unix guy ! Cyber security expert
+          </p>
+          <p class="video-stats">
+            103K views &#183; 3 weeks ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://www.youtube.com/watch?v=ZXl0Iug0iKU"><img class="thumbnail" src="Pictures/T4.jpg"></a>
+
+        <div class="time">15:53</div>
+      </div>
+      <div>
+        <div class="channel-picture">
+          <a href="https://www.youtube.com/@imKay"><img class="profile-picture" src="Profile-pictures/P4.jpeg"></a>
+          <div class="channel-tooltip">
+            <img class="channel-tooltip-picture" src="Profile-pictures/P4.jpeg">
+            <div>
+              <div class="channel-tooltip-name">Marques Brownlee</div>
+              <div class="channel-tooltip-stats">944K Subscribers</div>
+            </div>
+          </div>
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            First ninja H2R top speed<br>
+            .
+          </p>
+          <p class="video-author">
+            imKay
+          </p>
+          <p class="video-stats">
+            1.3M views &#183; 4 months ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://www.youtube.com/watch?v=sQoiM7i5Nqc"><img class="thumbnail" src="Pictures/T5.jpg"></a>
+
+        <div class="time">2:07:12</div>
+      </div>
+      <div>
+        <div class="channel-picture">
+          <a href="https://www.youtube.com/@codehal"><img class="profile-picture" src="Profile-pictures/P5.jpeg"></a>
+          <div class="channel-tooltip">
+            <img class="channel-tooltip-picture" src="Profile-pictures/P5.jpeg">
+            <div>
+              <div class="channel-tooltip-name">Codehal</div>
+              <div class="channel-tooltip-stats">119K Subscribers</div>
+            </div>
+          </div>
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            Responsive personal portfolio website using HTML CSS and JAVASCRIPT
+          </p>
+          <p class="video-author">
+            Codehal
+          </p>
+          <p class="video-stats">
+            551k views &#183; 7 months ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://www.youtube.com/watch?v=tgV4YHG-lHE"><img class="thumbnail" src="Pictures/T6.jpg"></a>
+        <div class="time">10:48</div>
+      </div>
+      <div>
+        <div class="channel-picture">
+          <a href="https://www.youtube.com/@BenLionelScott"> <img class="profile-picture" src="Profile-pictures/P6.jpeg"></a>
+          <div class="channel-tooltip">
+            <img class="channel-tooltip-picture" src="Profile-pictures/P6.jpeg">
+            <div>
+              <div class="channel-tooltip-name">Ben lionel scott</div>
+              <div class="channel-tooltip-stats">3.01M Subscribers</div>
+            </div>
+          </div>
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            GET IT DONE - Motivational speech<br>
+            .
+          </p>
+          <p class="video-author">
+            Ben lionel scott
+          </p>
+          <p class="video-stats">
+            122k views &#183; 7 days ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://www.youtube.com/watch?v=CYG5E8-DUQc&t=2s"><img class="thumbnail" src="Pictures/T7.jpg"></a>
+        <div class="time">13:05</div>
+      </div>
+      <div>
+        <div class="channel-picture">
+          <a href="https://www.youtube.com/@ImanGadzhi"><img class="profile-picture" src="Profile-pictures/P7.jpeg"></a>
+          <div class="channel-tooltip">
+            <img class="channel-tooltip-picture" src="Profile-pictures/P7.jpeg">
+            <div>
+              <div class="channel-tooltip-name">Iman Gadzhi</div>
+              <div class="channel-tooltip-stats">3.84M Subscribers</div>
+            </div>
+          </div>
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            Do this if you are a broke student<br>
+            .
+          </p>
+          <p class="video-author">
+            Iman Gadzhi
+          </p>
+          <p class="video-stats">
+            1.1M views &#183; 2 months ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://www.youtube.com/watch?v=FlBUw7UzIjw"><img class="thumbnail" src="Pictures/T8.jpg"></a>
+        <div class="time">21:06</div>
+      </div>
+      <div>
+        <div class="channel-picture">
+          <a href="https://www.youtube.com/@SaidArtt"> <img class="profile-picture" src="Profile-pictures/P8.jpeg"></a>
+          <div class="channel-tooltip">
+            <img class="channel-tooltip-picture" src="Profile-pictures/P8.jpeg">
+            <div>
+              <div class="channel-tooltip-name">Ben lionel scott</div>
+              <div class="channel-tooltip-stats">3.01M Subscribers</div>
+            </div>
+          </div>
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            Alone Chris Bumstead -Gym Motivation<br>
+            .
+          </p>
+          <p class="video-author">
+            SadArt
+          </p>
+          <p class="video-stats">
+            68k views &#183; 10 days ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://www.youtube.com/watch?v=2pMsYSR7g78"><img class="thumbnail" src="Pictures/T9.jpg"></a>
+        <div class="time">35:16</div>
+      </div>
+      <div>
+        <div class="channel-picture">
+          <a href="https://www.youtube.com/@PiersMorganUncensored"> <img class="profile-picture" src="Profile-pictures/P9.jpeg"></a>
+          <div class="channel-tooltip">
+            <img class="channel-tooltip-picture" src="Profile-pictures/P9.jpeg">
+            <div>
+              <div class="channel-tooltip-name"> Piers Morgan Uncensored</div>
+              <div class="channel-tooltip-stats">3.01M Subscribers</div>
+            </div>
+          </div>
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            Part 2: Andrew tate talt about palestine and israel with piers morgan.
+          </p>
+          <p class="video-author">
+            Piers Morgan Uncensored
+          </p>
+          <p class="video-stats">
+            6.4M views &#183; 11 days ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://www.youtube.com/watch?v=oY036JqESt0"><img class="thumbnail" src="Pictures/T10.jpg"></a>
+        <div class="time">23:27</div>
+      </div>
+      <div>
+        <div class="channel-picture">
+          <a href="https://www.youtube.com/@CodeWithHarry"> <img class="profile-picture" src="Profile-pictures/P10.jpeg"></a>
+          <div class="channel-tooltip">
+            <img class="channel-tooltip-picture" src="Profile-pictures/P10.jpeg">
+            <div>
+              <div class="channel-tooltip-name">CodeWithHary</div>
+              <div class="channel-tooltip-stats">5.3M Subscribers</div>
+            </div>
+          </div>
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            Searching the DOM ! JAVASCRIPT Tutorial In Hindi #36<br>
+            .
+          </p>
+          <p class="video-author">
+            CodeWithHary
+          </p>
+          <p class="video-stats">
+            180k views &#183; 1 year ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://www.youtube.com/watch?v=_Yuh6R9nYuY&t=10s"><img class="thumbnail" src="Pictures/T11.jpg"></a>
+        <div class="time">5:54</div>
+      </div>
+      <div>
+        <div class="channel-picture">
+          <a href="https://www.youtube.com/@unitedautomotorsportsbyume9608"> <img class="profile-picture" src="Profile-pictures/P11.jpeg"></a>
+          <div class="channel-tooltip">
+            <img class="channel-tooltip-picture" src="Profile-pictures/P11.jpeg">
+            <div>
+              <div class="channel-tooltip-name">United Auto MotorSports By Umer Ashraf</div>
+              <div class="channel-tooltip-stats">65.7k Subscribers</div>
+            </div>
+          </div>
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            Original kawasaki z 1000 Review and price in pakistan .Best bike in pakistan<br>
+            .
+          </p>
+          <p class="video-author">
+            United Auto MotorSports By Umer Ashraf 
+          </p>
+          <p class="video-stats">
+            3.4k views &#183; 4 days ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://www.youtube.com/watch?v=p1GmFCGuVjw"><img class="thumbnail" src="Pictures/T12.jpg"></a>
+        <div class="time">29:46</div>
+      </div>
+      <div>
+        <div class="channel-picture">
+          <a href=" https://www.youtube.com/@codehal"> <img class="profile-picture" src="Profile-pictures/P12.jpeg"></a>
+          <div class="channel-tooltip">
+            <img class="channel-tooltip-picture" src="Profile-pictures/P12.jpeg">
+            <div>
+              <div class="channel-tooltip-name">Ben lionel scott</div>
+              <div class="channel-tooltip-stats">119K Subscribers</div>
+            </div>
+          </div>
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            How to make a website with login and register ! HTML CSS and JAVASCRIPT <br>
+            .
+          </p>
+          <p class="video-author">
+            Codehai
+          </p>
+          <p class="video-stats">
+            1.8M views &#183; 10 months ago
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+</body>
+
+</html>
